@@ -13,5 +13,10 @@ namespace BerkleyCMS
         {
 
         }
+
+        protected void Chart1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -82,6 +82,7 @@
     <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
@@ -160,7 +161,8 @@
     <Content Include="img\address.svg" />
     <Content Include="img\exam.svg" />
     <Content Include="img\fee.svg" />
-    <Content Include="img\image.jpg" />
+    <Content Include="img\module.svg" />
+    <Content Include="img\student.svg" />
     <Content Include="img\teacher.svg" />
     <Content Include="Module.aspx" />
     <Content Include="Address.aspx">

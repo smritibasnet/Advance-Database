@@ -7,18 +7,22 @@
         <div>
             <asp:Label ID="Label1" runat="server" Text="Module Code" Font-Names="roboto"></asp:Label>
             <asp:TextBox ID="modTxt" runat="server" CssClass="form-control" Font-Names="roboto"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="* Module Code is Required" ControlToValidate="modTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label2" runat="server" Text="Module Name" Font-Names="roboto"></asp:Label>
             <asp:TextBox ID="nameTxt" runat="server" CssClass="form-control" Font-Names="roboto"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Module Name is Required" ControlToValidate="nameTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label3" runat="server" Text="Credit Hours" Font-Names="roboto"></asp:Label>
             <asp:TextBox ID="chTxt" runat="server" CssClass="form-control" Font-Names="roboto"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="* Credit Hours is Required" ControlToValidate="chTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label4" runat="server" Text="Module Leader" Font-Names="roboto"></asp:Label>
             <asp:TextBox ID="modLeaderTxt" runat="server" CssClass="form-control" Font-Names="roboto"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="* Module Leader is Required" ControlToValidate="modLeaderTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
   
     <p>

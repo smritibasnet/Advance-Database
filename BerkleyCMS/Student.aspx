@@ -8,19 +8,24 @@
             <asp:Label ID="Label1" runat="server" Text="ID" Font-Bold="True" Font-Names="roboto"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="idTxt" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="* ID is Required" ControlToValidate="idTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
+            <br />
             <asp:Label ID="Label2" runat="server" Text="Name" Font-Bold="True" Font-Names="roboto"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
             <asp:TextBox ID="nameTxt" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="* Name is Required" ControlToValidate="nameTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label7" runat="server" Text="Student Email" Font-Bold="True" Font-Names="roboto"></asp:Label>
             &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="emailTxt" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="* Email is Required" ControlToValidate="emailTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label4" runat="server" Text="Date of Birth" Font-Bold="True" Font-Names="roboto"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="dobTxt" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="* Date of Birth is Required" ControlToValidate="dobTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
         <div>
             <asp:Label ID="Label5" runat="server" Text="Age" Font-Bold="True" Font-Names="roboto"></asp:Label>
@@ -30,6 +35,7 @@
             <asp:Label ID="Label6" runat="server" Text="Academic Year" Font-Bold="True" Font-Names="roboto"></asp:Label>
             &nbsp;&nbsp;
             <asp:TextBox ID="yearTxt" runat="server" CssClass="form-control"></asp:TextBox>
+            <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="* Academic year is Required" ControlToValidate="yearTxt" ForeColor="DarkRed"></asp:RequiredFieldValidator>
         </div>
          
     </div>

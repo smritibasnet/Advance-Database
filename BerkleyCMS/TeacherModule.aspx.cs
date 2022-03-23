@@ -27,14 +27,14 @@ namespace BerkleyCMS
             con.Open();
             cmd.Connection = con;
             cmd.CommandText = @"SELECT p.person_id, p.name,  t.teacher_email, m.module_code, m.module_name, m.credit_hours
-FROM person p
-JOIN teacher t
-ON t.teacher_id = p.person_id
-JOIN teacher_module tm 
-ON t.teacher_id = tm.teacher_id
-JOIN module m
-ON tm.module_code = m.module_code
- WHERE p.name ='" + name + "' ";
+                                  FROM person p
+                                  JOIN teacher t
+                                  ON t.teacher_id = p.person_id
+                                  JOIN teacher_module tm 
+                                  ON t.teacher_id = tm.teacher_id
+                                  JOIN module m
+                                  ON tm.module_code = m.module_code
+                                  WHERE p.name ='" + name + "' ";
 
             cmd.CommandType = CommandType.Text;
 
